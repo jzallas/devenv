@@ -8,6 +8,7 @@ This is a local development environment that I use for the purposes of building 
 
 ## Requirements
 1. Install Vagrant
+2. Virtualbox
 
 ## Usage
 1. All you should need to do is `vagrant up`
@@ -16,3 +17,6 @@ This is a local development environment that I use for the purposes of building 
 vagrant ssh
 sudo docker run hello-world
 ```
+
+## TODO
+At some point I will include a description on how to install and run docker images using this environment.
