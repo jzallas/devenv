@@ -7,8 +7,9 @@ This is a local development environment that I use for the purposes of building 
 1. Docker CE
 
 ## Requirements
-1. Install Vagrant
-1.. Virtualbox
+This may work on other versions, but these are the specific versions I am using and have tested
+1. Install Vagrant v.1.9.7
+1. Virtualbox v.5.1.24
 
 ## Usage
 1. You should install the vb-guest plugin to ensure that shared folders work properly:
