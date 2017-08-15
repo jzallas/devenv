@@ -8,11 +8,13 @@ This is a local development environment that I use for the purposes of building 
 
 ## Requirements
 1. Install Vagrant
-2. Virtualbox
+1.. Virtualbox
 
 ## Usage
-1. All you should need to do is `vagrant up`
-2. Optional: to validate that everything is working:
+1. You should install the vb-guest plugin to ensure that shared folders work properly:
+`vagrant plugin install vagrant-vbguest`
+1. `vagrant up`
+1.. Optional: to validate that everything is working:
 ```
 vagrant ssh
 sudo docker run hello-world
