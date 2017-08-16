@@ -84,5 +84,10 @@ Vagrant.configure("2") do |config|
     ## Install
     apt-get update
     apt-get install -y docker-ce
+
+    # Install Docker Compose
+    apt-get update
+    apt-get -y install python3-pip
+    pip3 install docker-compose
   SHELL
 end
