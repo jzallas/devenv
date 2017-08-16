@@ -5,6 +5,8 @@ This is a local development environment that I use for the purposes of building 
 ## What's included?
 1. Ubuntu 14.04.5 LTS
 1. Docker CE
+1. Docker Compose
+1. nsenter
 
 ## Requirements
 This may work on other versions, but these are the specific versions I am using and have tested
@@ -19,7 +21,8 @@ This may work on other versions, but these are the specific versions I am using 
 ```
 vagrant ssh
 sudo docker run hello-world
+sudo docker-compose --version
 ```
-
+1. You can easily enter running docker containers by using `docker-enter <container_name>`
 ## TODO
 At some point I will include a description on how to install and run docker images using this environment.
