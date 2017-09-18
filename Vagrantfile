@@ -89,5 +89,8 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get -y install python3-pip
     pip3 install docker-compose
+
+    # Install nsenter (enter docker containers)
+    docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
   SHELL
 end
